@@ -704,7 +704,15 @@ section {
 }
 
 .courses-div p {
-  margin-bottom: 10px;
+
+}
+
+.courses-img {
+  padding-top: 30px;
+}
+
+.features img {
+  margin-left: 20px;
 }
 
 /*--------------------------------------------------------------
@@ -908,6 +916,8 @@ section {
 
 .pricing img {
   padding: 30px 40px;
+  width: 300px;
+  height: 250px;
 }
 
 .pricing ul {
@@ -961,6 +971,16 @@ section {
   color: #fff;
 }
 
+.img-fluid {
+  width: 85%;
+}
+
+
+.individual-services h1{
+  text-decoration: underline;
+  margin: 0 20px;
+
+}
 /*--------------------------------------------------------------
 # F.A.Q
 --------------------------------------------------------------*/
@@ -1622,7 +1642,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #5969f3;
+  background: #fc4771;
 }
 
 @-webkit-keyframes animate-loading {
